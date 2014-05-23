@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<kursliste xmlns="http://xmlns.estv.admin.ch/ictax/1.2.0/kursliste" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.estv.admin.ch/ictax/1.2.0/kursliste kursliste.xsd" version="1.2.0" creationDate="05.02.2013" year="2012">
+<cantonBFS id="2587" canton="AG">
+<cantonName lang="de" name="Aargau"/>
+<cantonName lang="fr" name="Argovie"/>
+<cantonName lang="it" name="Argovia"/>
+</cantonBFS>
+<exchangeRateMonthly currency="ZMK" year="2012" month="04" denomination="100" value="0.017355"/>
+<exchangeRateMonthly currency="ZMK" year="2012" month="05" denomination="100" value="0.0179478261"/>
+<exchangeRateMonthly currency="ZMK" year="2012" month="06" denomination="100" value="0.0182047619"/>
+<exchangeRateMonthly currency="ZMK" year="2012" month="07" denomination="100" value="0.0199681818"/>
+<exchangeRateMonthly currency="ZMK" year="2012" month="08" denomination="100" value="0.019673913"/>
+<exchangeRateMonthly currency="ZMK" year="2012" month="09" denomination="100" value="0.01864"/>
+<exchangeRateMonthly currency="ZMK" year="2012" month="10" denomination="100" value="0.017973913"/>
+<exchangeRateMonthly currency="ZMK" year="2012" month="11" denomination="100" value="0.0180136364"/>
+<exchangeRateMonthly currency="ZMK" year="2012" month="12" denomination="100" value="0.0176368421"/>
+<exchangeRateYearEnd currency="AED" year="2012" denomination="100" value="24.9207"/>
+<exchangeRateYearEnd currency="ALL" year="2012" denomination="100" value="0.8653"/>
+<exchangeRateYearEnd currency="ANG" year="2012" denomination="100" value="51.1366"/>
+<exchangeRateYearEnd currency="AOA" year="2012" denomination="100" value="0.9552"/>
+<exchangeRateYearEnd currency="ARS" year="2012" value="0.186197" valueMiddle="0.206456"/>
+<exchangeRateYearEnd currency="ATS" year="2012" denomination="100" value="8.77" valueMiddle="8.759307"/>
+<exchangeRateYearEnd currency="AUD" year="2012" value="0.950311" valueMiddle="0.971088"/>
+<exchangeRateYearEnd currency="AWG" year="2012" value="0.511366"/>
+<exchangeRateYearEnd currency="AZN" year="2012" denomination="100" value="116.7513"/>
+<exchangeRateYearEnd currency="BBD" year="2012" value="0.457675"/>
+<exchangeRateYearEnd currency="BDT" year="2012" denomination="100" value="1.1474"/>
+<exchangeRateYearEnd currency="BEF" year="2012" denomination="100" value="2.991" valueMiddle="2.987878"/>
+<exchangeRateYearEnd currency="BGN" year="2012" value="0.617083"/>
+<exchangeRateYearEnd currency="BHD" year="2012" value="2.42768"/>
+<exchangeRateYearEnd currency="BIF" year="2012" denomination="100" value="0.0592"/>
+<exchangeRateYearEnd currency="BMD" year="2012" value="0.915351"/>
+<exchangeRateYearEnd currency="BND" year="2012" value="0.749355"/>
+<exchangeRateYearEnd currency="BOB" year="2012" denomination="100" value="13.2466"/>
+<exchangeRateYearEnd currency="BRL" year="2012" value="0.447054" valueMiddle="0.4813295"/>
+<exchangeRateYearEnd currency="BSD" year="2012" value="0.915351"/>
+<exchangeRateYearEnd currency="BTN" year="2012" value="0.016706"/>
+<exchangeRateYearEnd currency="BWP" year="2012" value="0.11753"/>
+<exchangeRateYearEnd currency="BYR" year="2012" denomination="100" value="0.0106"/>
+<exchangeRateYearEnd currency="BZD" year="2012" value="0.457675"/>
+<exchangeRateYearEnd currency="CAD" year="2012" value="0.919326" valueMiddle="0.938311"/>
+<exchangeRateYearEnd currency="CDF" year="2012" denomination="100" value="0.1"/>
+<exchangeRateYearEnd currency="CLP" year="2012" denomination="100" value="0.1911"/>
+<exchangeRateYearEnd currency="CNH" year="2012" denomination="100" value="14.708"/>
+<exchangeRateYearEnd currency="CNY" year="2012" denomination="100" value="14.6918"/>
+<exchangeRateYearEnd currency="COP" year="2012" denomination="100" value="0.0518"/>
+<exchangeRateYearEnd currency="CRC" year="2012" denomination="100" value="0.1801"/>
+<exchangeRateYearEnd currency="CUP" year="2012" value="0.915351"/>
+<exchangeRateYearEnd currency="CYP" year="2012" value="2.06194" valueMiddle="2.059389"/>
+<exchangeRateYearEnd currency="CZK" year="2012" denomination="100" value="4.8088" valueMiddle="4.794696"/>
+<exchangeRateYearEnd currency="DEM" year="2012" denomination="100" value="61.702" valueMiddle="61.626368"/>
+<exchangeRateYearEnd currency="DKK" year="2012" denomination="100" value="16.1748" valueMiddle="16.191647"/>
+<exchangeRateYearEnd currency="DOP" year="2012" denomination="100" value="2.2929"/>
+<exchangeRateYearEnd currency="DZD" year="2012" denomination="100" value="1.1704"/>
+<exchangeRateYearEnd currency="EEK" year="2012" value="0.07712" valueMiddle="0.077033"/>
+<exchangeRateYearEnd currency="EGP" year="2012" value="0.143824"/>
+<exchangeRateYearEnd currency="ESP" year="2012" denomination="100" value="0.725" valueMiddle="0.724404"/>
+<exchangeRateYearEnd currency="ETB" year="2012" denomination="100" value="5.0087"/>
+<exchangeRateYearEnd currency="EUR" year="2012" value="1.2068" valueMiddle="1.205307"/>
+<exchangeRateYearEnd currency="FIM" year="2012" denomination="100" value="20.296" valueMiddle="20.271808"/>
+<exchangeRateYearEnd currency="FJD" year="2012" value="0.512137"/>
+<exchangeRateYearEnd currency="FRF" year="2012" denomination="100" value="18.397" valueMiddle="18.374786"/>
+<exchangeRateYearEnd currency="GBP" year="2012" value="1.487855" valueMiddle="1.486152"/>
+<exchangeRateYearEnd currency="GEL" year="2012" value="0.552121"/>
+<exchangeRateYearEnd currency="GHS" year="2012" denomination="100" value="0.004806"/>
+<exchangeRateYearEnd currency="GMD" year="2012" value="0.026823"/>
+<exchangeRateYearEnd currency="GNF" year="2012" denomination="100" value="0.013"/>
+<exchangeRateYearEnd currency="GRD" year="2012" denomination="100" value="0.354" valueMiddle="0.353721"/>
+<exchangeRateYearEnd currency="GTQ" year="2012" value="0.115816"/>
+<exchangeRateYearEnd currency="HKD" year="2012" denomination="100" value="11.8097" valueMiddle="12.090747"/>
+<exchangeRateYearEnd currency="HNL" year="2012" denomination="100" value="4.5997"/>
+<exchangeRateYearEnd currency="HRK" year="2012" denomination="100" value="15.9879"/>
+<exchangeRateYearEnd currency="HTG" year="2012" denomination="100" value="2.1716"/>
+<exchangeRateYearEnd currency="HUF" year="2012" denomination="100" value="0.4144" valueMiddle="0.417013"/>
+<exchangeRateYearEnd currency="IDR" year="2012" denomination="100" value="0.009497"/>
+<exchangeRateYearEnd currency="IEP" year="2012" value="1.53231" valueMiddle="1.530424"/>
+<exchangeRateYearEnd currency="ILS" year="2012" denomination="100" value="24.5329"/>
+<exchangeRateYearEnd currency="INR" year="2012" denomination="100" value="1.6706"/>
+<exchangeRateYearEnd currency="ISK" year="2012" denomination="100" value="0.4885"/>
+<exchangeRateYearEnd currency="ITL" year="2012" denomination="100" value="0.062" valueMiddle="0.062248"/>
+<exchangeRateYearEnd currency="JMD" year="2012" denomination="100" value="0.9903"/>
+<exchangeRateYearEnd currency="JOD" year="2012" value="1.28966"/>
+<exchangeRateYearEnd currency="JPY" year="2012" denomination="100" value="1.0586" valueMiddle="1.176381"/>
+<exchangeRateYearEnd currency="KES" year="2012" denomination="100" value="1.0631"/>
+<exchangeRateYearEnd currency="KGS" year="2012" value="0.01931"/>
+<exchangeRateYearEnd currency="KRW" year="2012" denomination="100" value="0.0855" valueMiddle="0.083262"/>
+<exchangeRateYearEnd currency="KWD" year="2012" value="3.255023"/>
+<exchangeRateYearEnd currency="KYD" year="2012" value="1.11627"/>
+<exchangeRateYearEnd currency="KZT" year="2012" denomination="100" value="0.6084"/>
+<exchangeRateYearEnd currency="LBP" year="2012" denomination="100" value="0.0608"/>
+<exchangeRateYearEnd currency="LKR" year="2012" denomination="100" value="0.7167"/>
+<exchangeRateYearEnd currency="LSL" year="2012" value="0.107886"/>
+<exchangeRateYearEnd currency="LTL" year="2012" value="0.349513"/>
+<exchangeRateYearEnd currency="LUF" year="2012" denomination="100" value="2.991" valueMiddle="2.987878"/>
+<exchangeRateYearEnd currency="LVL" year="2012" value="1.729683"/>
+<exchangeRateYearEnd currency="MAD" year="2012" denomination="100" value="10.8201"/>
+<exchangeRateYearEnd currency="MDL" year="2012" value="0.075531"/>
+<exchangeRateYearEnd currency="MGA" year="2012" denomination="100" value="0.0402"/>
+<exchangeRateYearEnd currency="MKD" year="2012" denomination="100" value="1.9393"/>
+<exchangeRateYearEnd currency="MNT" year="2012" denomination="100" value="0.0658"/>
+<exchangeRateYearEnd currency="MOP" year="2012" value="0.114657"/>
+<exchangeRateYearEnd currency="MRO" year="2012" denomination="100" value="0.3035"/>
+<exchangeRateYearEnd currency="MTL" year="2012" value="2.81108" valueMiddle="2.80761"/>
+<exchangeRateYearEnd currency="MUR" year="2012" value="0.029962"/>
+<exchangeRateYearEnd currency="MVR" year="2012" value="0.059554"/>
+<exchangeRateYearEnd currency="MWK" year="2012" value="0.002734"/>
+<exchangeRateYearEnd currency="MXN" year="2012" denomination="100" value="7.0487" valueMiddle="7.132605"/>
+<exchangeRateYearEnd currency="MYR" year="2012" denomination="100" value="29.9331" valueMiddle="30.361379"/>
+<exchangeRateYearEnd currency="MZN" year="2012" denomination="100" value="3.0819"/>
+<exchangeRateYearEnd currency="NAD" year="2012" value="0.107886"/>
+<exchangeRateYearEnd currency="NGN" year="2012" denomination="100" value="0.5862"/>
+<exchangeRateYearEnd currency="NIO" year="2012" denomination="100" value="3.7941"/>
+<exchangeRateYearEnd currency="NLG" year="2012" denomination="100" value="54.762" valueMiddle="54.694447"/>
+<exchangeRateYearEnd currency="NOK" year="2012" denomination="100" value="16.4476" valueMiddle="16.119501"/>
+<exchangeRateYearEnd currency="NPR" year="2012" value="0.010441"/>
+<exchangeRateYearEnd currency="NZD" year="2012" value="0.75517" valueMiddle="0.759529"/>
+<exchangeRateYearEnd currency="OMR" year="2012" value="2.377228"/>
+<exchangeRateYearEnd currency="PAB" year="2012" value="0.915351"/>
+<exchangeRateYearEnd currency="PEN" year="2012" denomination="100" value="35.8611"/>
+<exchangeRateYearEnd currency="PGK" year="2012" value="0.442513"/>
+<exchangeRateYearEnd currency="PHP" year="2012" denomination="100" value="2.2291"/>
+<exchangeRateYearEnd currency="PKR" year="2012" denomination="100" value="0.9416"/>
+<exchangeRateYearEnd currency="PLN" year="2012" denomination="100" value="29.5762" valueMiddle="28.814061"/>
+<exchangeRateYearEnd currency="PTE" year="2012" denomination="100" value="0.601" valueMiddle="0.601204"/>
+<exchangeRateYearEnd currency="PYG" year="2012" denomination="100" value="0.0216"/>
+<exchangeRateYearEnd currency="QAR" year="2012" denomination="100" value="25.14"/>
+<exchangeRateYearEnd currency="RON" year="2012" denomination="100" value="27.1465"/>
+<exchangeRateYearEnd currency="RSD" year="2012" denomination="100" value="1.0742"/>
+<exchangeRateYearEnd currency="RUB" year="2012" denomination="100" value="2.9964" valueMiddle="3.019463"/>
+<exchangeRateYearEnd currency="RWF" year="2012" denomination="100" value="0.1449"/>
+<exchangeRateYearEnd currency="SAR" year="2012" denomination="100" value="24.4064"/>
+<exchangeRateYearEnd currency="SBD" year="2012" value="0.129089"/>
+<exchangeRateYearEnd currency="SCR" year="2012" value="0.069897"/>
+<exchangeRateYearEnd currency="SEK" year="2012" denomination="100" value="14.0705" valueMiddle="13.848965"/>
+<exchangeRateYearEnd currency="SGD" year="2012" denomination="100" value="74.9355" valueMiddle="75.065019"/>
+<exchangeRateYearEnd currency="SIT" year="2012" denomination="100" value="0.503" valueMiddle="0.502965"/>
+<exchangeRateYearEnd currency="SKK" year="2012" denomination="100" value="4.005" valueMiddle="4.000886"/>
+<exchangeRateYearEnd currency="SLL" year="2012" denomination="100" value="0.0211"/>
+<exchangeRateYearEnd currency="SRD" year="2012" denomination="100" value="27.7377"/>
+<exchangeRateYearEnd currency="SVC" year="2012" denomination="100" value="10.4641"/>
+<exchangeRateYearEnd currency="SZL" year="2012" value="0.107886"/>
+<exchangeRateYearEnd currency="THB" year="2012" denomination="100" value="2.9923" valueMiddle="3.016617"/>
+<exchangeRateYearEnd currency="TND" year="2012" value="0.589488"/>
+<exchangeRateYearEnd currency="TOP" year="2012" value="0.526033"/>
+<exchangeRateYearEnd currency="TRY" year="2012" value="0.512888" valueMiddle="0.52079"/>
+<exchangeRateYearEnd currency="TTD" year="2012" denomination="100" value="14.2587"/>
+<exchangeRateYearEnd currency="TWD" year="2012" denomination="100" value="3.1521"/>
+<exchangeRateYearEnd currency="TZS" year="2012" denomination="100" value="0.0577"/>
+<exchangeRateYearEnd currency="UAH" year="2012" value="0.113708"/>
+<exchangeRateYearEnd currency="UGX" year="2012" denomination="100" value="0.034"/>
+<exchangeRateYearEnd currency="USD" year="2012" value="0.915351" valueMiddle="0.937918"/>
+<exchangeRateYearEnd currency="UYU" year="2012" denomination="100" value="4.7724"/>
+<exchangeRateYearEnd currency="UZS" year="2012" denomination="100" value="0.0461"/>
+<exchangeRateYearEnd currency="VEF" year="2012" denomination="100" value="21.3136"/>
+<exchangeRateYearEnd currency="VND" year="2012" denomination="100" value="0.004392"/>
+<exchangeRateYearEnd currency="VUV" year="2012" denomination="100" value="0.9789"/>
+<exchangeRateYearEnd currency="WST" year="2012" value="0.401136"/>
+<exchangeRateYearEnd currency="XAG" year="2012" value="27.4"/>
+<exchangeRateYearEnd currency="XAU" year="2012" value="1523.1"/>
+<exchangeRateYearEnd currency="XCD" year="2012" denomination="100" value="33.9022"/>
+<exchangeRateYearEnd currency="XOF" year="2012" denomination="100" value="0.1839"/>
+<exchangeRateYearEnd currency="XPD" year="2012" value="639.8"/>
+<exchangeRateYearEnd currency="XPT" year="2012" value="1394.05"/>
+<exchangeRateYearEnd currency="ZAR" year="2012" value="0.107886" valueMiddle="0.114355"/>
+<exchangeRateYearEnd currency="ZMK" year="2012" denomination="100" value="0.0175"/>
+</kursliste>
