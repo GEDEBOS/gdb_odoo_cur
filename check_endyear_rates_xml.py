@@ -30,13 +30,6 @@ filename = options.filename
 
 newrates = False
 curdir = os.getcwd()
-iniFile = curdir + '/check_all_rates.ini'
-config = ConfigParser.ConfigParser()
-config.read(iniFile)
-liste_bases = config.get('dir', 'liste')
-liste_exclude = config.get('base', 'exclude')
-exclude = liste_exclude.split('|')
-
 
 mois = ['', 'janvier', 'f&eacute;vrier', 'mars', 'avril', 'mai', 'juin', 'juillet', 'ao&ucirc;t', 'septembre',
         'octobre', 'novembre', 'd&eacute;cembre']
