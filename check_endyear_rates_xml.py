@@ -12,8 +12,8 @@ from BeautifulSoup import BeautifulSoup as Soup
 from optparse import OptionParser
 parser = OptionParser()
 parser.add_option("-d", "--db", dest="db", default='salvia', help="Nom de la base ")
-parser.add_option("-U", "--user", dest="user", default='admin', help="User Openerp")
-parser.add_option("-W", "--passwd", dest="passwd", help="mot de passe Openerp ")
+parser.add_option("-U", "--user", dest="user", default='admin', help="User Odoo")
+parser.add_option("-W", "--passwd", dest="passwd", help="mot de passe Odoo ")
 parser.add_option("-H", "--host", dest="host", default='localhost', help="Adresse  Serveur")
 parser.add_option("-p", "--port", dest="port", default='8069', help="port du serveur")
 parser.add_option("-P", "--protocole", dest="protocole", default='http', help="protocole http/https")
