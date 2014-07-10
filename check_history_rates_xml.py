@@ -126,23 +126,23 @@ def other_base(webrates, base):
 
 
 def update_base(base, uid, pwd, webrates, daterate):
-    company_ids = sock.execute(base,uid,pwd,'res.company','search',[('name','>','')])
+    company_ids = sock.execute(base, uid, pwd, 'res.company', 'search', [('name', '>', '')])
 
     if company_ids:     
-        curobj = sock.execute(base,uid,pwd,'res.company','read',company_ids[0],['currency_id'])
+        curobj = sock.execute(base, uid, pwd, 'res.company', 'read', company_ids[0], ['currency_id'])
         base_currency = curobj['currency_id'][1].upper()
     else:
         base_currency = 'CHF'
-    if base_currency <> 'CHF':
-        convrates = other_base(webrates,base_currency)
+    if base_currency != 'CHF':
+        convrates = other_base(webrates, base_currency)
     else:
         convrates = webrates
 
-    ids = sock.execute(base,uid,pwd,'res.currency','search',[('name','>','')])   
+    ids = sock.execute(base, uid, pwd, 'res.currency', 'search', [('name', '>', ''), ('active', '=', True)])
 
     for id in ids:
-        objcur =  sock.execute(base,uid,pwd,'res.currency','read',id)
-        values = {'name': daterate, 'currency_id': objcur['name'], 'currency': objcur['name']}
+        objcur = sock.execute(base, uid, pwd, 'res.currency', 'read', id)
+        values = {'name': daterate, 'currency_id': id, 'currency': objcur['name']}
         currency = objcur['name']
         if currency != base_currency:
             try:
@@ -167,7 +167,7 @@ def update_base(base, uid, pwd, webrates, daterate):
 
 url = proto + '://' + host + ':' + port
 server = xmlrpclib.ServerProxy(url + '/xmlrpc/common')
-uid = server.login(base,user, pwd)
+uid = server.login(base, user, pwd)
 if not uid:
     print "ERR, invalid login to database %s for %s" % (base, user)
     exit(0)
@@ -179,7 +179,7 @@ curmonth = datetime.datetime.now().strftime("%m")
 jahr = yearfrom
 year = int(yearfrom)
 while year <= int(curyear):
-    for monat in range (1,13):
+    for monat in range(1, 13):
         print "INF processing year", year, "month", monat
         br = mechanize.Browser()
         br.set_handle_equiv(True)
@@ -187,17 +187,17 @@ while year <= int(curyear):
         br.set_handle_redirect(True)
         br.set_handle_referer(True)
         br.set_handle_robots(False)
-        br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time = 1)
+        br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
         br.addheaders = [('User-agent',
                           'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Fedora/3.0.1-1.fc9 Firefox/3.0.1')]
         br.open(rateurl)
-        br.select_form(nr = 0)
+        br.select_form(nr=0)
         br.form['monat'] = [str(monat)]
         br.form['jahr'] = str(year)
         br.submit()
         html = br.response().read()
         webrates = parse_page(html)
-        daterate = '%s-%s-01' % (str(year), str(monat))
+        daterate = '%04d-%02d-01' % (year, monat)
         update_base(base, uid, pwd, webrates, daterate)
         if year == int(curyear) and monat == int(curmonth):
             break        
